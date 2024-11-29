@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial para Idosos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Guia de Celular</h1>
+    </header>
+    <main>
+        <button class="main-button" onclick="abrirJanela('android.html')">Guia do Android</button>
+        <button class="main-button" onclick="abrirJanela('guia_gmail.html')">Guia do Gmail</button>
+        <button class="main-button" onclick="abrirJanela('guia_whatsapp.html')">Guia do WhatsApp</button>
+        <button class="main-button" onclick="abrirJanela('guia_instagram.html')">Guia do Instagram</button>
+    </main>
+    <script>
+        function abrirJanela(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
+</body>
+</html>

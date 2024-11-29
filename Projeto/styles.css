@@ -1,0 +1,104 @@
+/* Estilo Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 2em;
+    color: #004d99;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Listas */
+ol {
+    font-size: 1.5em;
+    line-height: 1.8;
+    margin-left: 20px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    background: #e6f2ff;
+    border-left: 5px solid #004d99;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Botão */
+button.main-button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 1.5em;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button.main-button:hover {
+    background-color: #003366;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    ol {
+        font-size: 1.2em;
+    }
+    button.main-button {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
+
+h2 {
+    color: #0066cc;
+    margin-top: 20px;
+    font-size: 1.8em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ol li {
+    background: #eaf6ff;
+    border-left: 5px solid #0066cc;
+    margin-bottom: 10px;
+}
